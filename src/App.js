@@ -24,6 +24,8 @@ function App() {
     };
 
     setList([...list,newlist])
+    setTitle('')
+    setComment('')
   }
   const clickRemoveButtonHandler = (id) =>{
     const Removelist = list.filter(list => list.id !== id)
